@@ -1,0 +1,54 @@
+{
+  "trade_date": "2026-03-06",
+  "generate_time": "2026-03-09 12:00:00",
+  "market_stats": {
+    "total_amount": 2.15,
+    "up": 3200,
+    "down": 1800,
+    "limit_up": 110,
+    "limit_down": 2,
+    "sentiment": 64.0
+  },
+  "dist_data": [
+    {"range": "-10%", "count": 50},
+    {"range": "-5%", "count": 200},
+    {"range": "-3%", "count": 400},
+    {"range": "-1%", "count": 600},
+    {"range": "0%", "count": 500},
+    {"range": "1%", "count": 700},
+    {"range": "3%", "count": 500},
+    {"range": "5%", "count": 250},
+    {"range": "10%", "count": 110}
+  ],
+  "today_sectors": [
+    {"name": "半导体", "change": 3.5, "top1": "300323.SZ", "top2": "688031.SH", "limit_count": 15},
+    {"name": "石油石化", "change": 2.8, "top1": "601857.SH", "top2": "600028.SH", "limit_count": 8},
+    {"name": "黄金", "change": 2.5, "top1": "600547.SH", "top2": "002155.SZ", "limit_count": 6},
+    {"name": "AI 应用", "change": 2.2, "top1": "002230.SZ", "top2": "600570.SH", "limit_count": 12},
+    {"name": "专用机械", "change": 1.8, "top1": "300480.SZ", "top2": "301373.SZ", "limit_count": 7}
+  ],
+  "top_stocks": [
+    {"code": "300323.SZ", "name": "汇顶科技", "close": 11.94, "amount": 4110000, "limit_time": "09:35", "continuous_limit": 2},
+    {"code": "688031.SH", "name": "星环科技", "close": 85.50, "amount": 3200000, "limit_time": "09:40", "continuous_limit": 2},
+    {"code": "300480.SZ", "name": "光力科技", "close": 28.60, "amount": 2800000, "limit_time": "10:15", "continuous_limit": 2},
+    {"code": "301373.SZ", "name": "凌玮科技", "close": 32.80, "amount": 2500000, "limit_time": "10:30", "continuous_limit": 2},
+    {"code": "601857.SH", "name": "中国石油", "close": 8.95, "amount": 8500000, "limit_time": "09:30", "continuous_limit": 1},
+    {"code": "600547.SH", "name": "山东黄金", "close": 28.50, "amount": 6200000, "limit_time": "09:32", "continuous_limit": 1},
+    {"code": "002230.SZ", "name": "科大讯飞", "close": 52.80, "amount": 12500000, "limit_time": "09:45", "continuous_limit": 1},
+    {"code": "600028.SH", "name": "中国石化", "close": 6.25, "amount": 7800000, "limit_time": "09:33", "continuous_limit": 1}
+  ],
+  "index_data": {
+    "000001.SHA": {
+      "name": "上证指数",
+      "data": [
+        {"trade_date": "20260228", "close": 4100.50},
+        {"trade_date": "20260301", "close": 4110.20},
+        {"trade_date": "20260302", "close": 4095.80},
+        {"trade_date": "20260303", "close": 4105.60},
+        {"trade_date": "20260304", "close": 4118.30},
+        {"trade_date": "20260305", "close": 4108.50},
+        {"trade_date": "20260306", "close": 4124.19}
+      ]
+    }
+  }
+}
