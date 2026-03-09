@@ -35,7 +35,8 @@
     "agentConfig": "Конфигурация",
     "settings": "Настройки",
     "models": "Модели",
-    "environments": "Окружения"
+    "environments": "Окружения",
+    "lan": "LAN"
   },
   "workspace": {
     "title": "Рабочее пространство",
@@ -491,5 +492,17 @@
       "viewReleases": "Открыть релизы",
       "close": "Закрыть"
     }
+  },
+  "lan": {
+    "title": "LAN Distributed Agents",
+    "description": "Manage CoPaw nodes in LAN for distributed task scheduling",
+    "init": "Initialize Network",
+    "start": "Start Network",
+    "stop": "Stop Network",
+    "refresh": "Refresh",
+    "config": "Configure",
+    "nodes": "Network Nodes",
+    "running": "Running",
+    "stopped": "Stopped"
   }
 }

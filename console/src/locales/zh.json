@@ -35,7 +35,8 @@
     "agentConfig": "运行配置",
     "settings": "设置",
     "models": "模型",
-    "environments": "环境变量"
+    "environments": "环境变量",
+    "lan": "局域网"
   },
   "workspace": {
     "title": "工作区",
@@ -491,5 +492,17 @@
       "viewReleases": "查看 Releases",
       "close": "关闭"
     }
+  },
+  "lan": {
+    "title": "局域网分布式智能体",
+    "description": "管理局域网内的 CoPaw 节点，实现分布式任务调度与协作",
+    "init": "初始化网络",
+    "start": "启动网络",
+    "stop": "停止网络",
+    "refresh": "刷新",
+    "config": "配置",
+    "nodes": "网络节点",
+    "running": "运行中",
+    "stopped": "已停止"
   }
 }

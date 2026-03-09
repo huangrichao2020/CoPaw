@@ -16,6 +16,7 @@ import WorkspacePage from "../../pages/Agent/Workspace";
 import MCPPage from "../../pages/Agent/MCP";
 import ModelsPage from "../../pages/Settings/Models";
 import EnvironmentsPage from "../../pages/Settings/Environments";
+import LANNetworkPage from "../../pages/Control/LANNetwork";
 
 const { Content } = Layout;
 
@@ -66,6 +67,7 @@ export default function MainLayout() {
               <Route path="/models" element={<ModelsPage />} />
               <Route path="/environments" element={<EnvironmentsPage />} />
               <Route path="/agent-config" element={<AgentConfigPage />} />
+              <Route path="/lan-network" element={<LANNetworkPage />} />
               <Route path="/" element={<Chat />} />
             </Routes>
           </div>

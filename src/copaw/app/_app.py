@@ -498,6 +498,9 @@ def get_version():
 
 
 app.include_router(api_router, prefix="/api")
+# LAN 分布式网络路由
+from .lan_network.routes import router as lan_router
+app.include_router(lan_router, prefix="/api", tags=["lan-network"])
 
 app.include_router(
     agent_app.router,
