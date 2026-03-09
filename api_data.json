@@ -1,53 +1,1180 @@
 {
-  "trade_date": "2026-03-06",
-  "generate_time": "2026-03-09 12:00:00",
+  "trade_date": "20260307",
+  "generate_time": "2026-03-09 15:17:36",
   "market_stats": {
-    "total_amount": 2.15,
-    "up": 3200,
-    "down": 1800,
-    "limit_up": 110,
-    "limit_down": 2,
-    "sentiment": 64.0
+    "total_amount": 2.18,
+    "up": 3350,
+    "down": 1720,
+    "limit_up": 118,
+    "limit_down": 3,
+    "sentiment": 66.1
   },
   "dist_data": [
-    {"range": "-10%", "count": 50},
-    {"range": "-5%", "count": 200},
-    {"range": "-3%", "count": 400},
-    {"range": "-1%", "count": 600},
-    {"range": "0%", "count": 500},
-    {"range": "1%", "count": 700},
-    {"range": "3%", "count": 500},
-    {"range": "5%", "count": 250},
-    {"range": "10%", "count": 110}
+    {
+      "range": "-10%",
+      "count": 45
+    },
+    {
+      "range": "-5%",
+      "count": 185
+    },
+    {
+      "range": "-3%",
+      "count": 380
+    },
+    {
+      "range": "-1%",
+      "count": 610
+    },
+    {
+      "range": "0%",
+      "count": 500
+    },
+    {
+      "range": "1%",
+      "count": 720
+    },
+    {
+      "range": "3%",
+      "count": 530
+    },
+    {
+      "range": "5%",
+      "count": 262
+    },
+    {
+      "range": "10%",
+      "count": 118
+    }
   ],
   "today_sectors": [
-    {"name": "半导体", "change": 3.5, "top1": "300323.SZ", "top2": "688031.SH", "limit_count": 15},
-    {"name": "石油石化", "change": 2.8, "top1": "601857.SH", "top2": "600028.SH", "limit_count": 8},
-    {"name": "黄金", "change": 2.5, "top1": "600547.SH", "top2": "002155.SZ", "limit_count": 6},
-    {"name": "AI 应用", "change": 2.2, "top1": "002230.SZ", "top2": "600570.SH", "limit_count": 12},
-    {"name": "专用机械", "change": 1.8, "top1": "300480.SZ", "top2": "301373.SZ", "limit_count": 7}
+    {
+      "name": "半导体",
+      "change": 3.52,
+      "top1": "300323.SZ",
+      "top2": "688031.SH",
+      "limit_count": 15
+    },
+    {
+      "name": "石油石化",
+      "change": 2.85,
+      "top1": "601857.SH",
+      "top2": "600028.SH",
+      "limit_count": 8
+    },
+    {
+      "name": "黄金",
+      "change": 2.52,
+      "top1": "600547.SH",
+      "top2": "002155.SZ",
+      "limit_count": 6
+    },
+    {
+      "name": "AI 应用",
+      "change": 2.28,
+      "top1": "002230.SZ",
+      "top2": "600570.SH",
+      "limit_count": 12
+    },
+    {
+      "name": "专用机械",
+      "change": 1.85,
+      "top1": "300480.SZ",
+      "top2": "301373.SZ",
+      "limit_count": 7
+    },
+    {
+      "name": "元器件",
+      "change": 1.72,
+      "top1": "002913.SZ",
+      "top2": "002261.SZ",
+      "limit_count": 9
+    },
+    {
+      "name": "电力",
+      "change": 1.65,
+      "top1": "001896.SZ",
+      "top2": "600875.SH",
+      "limit_count": 5
+    },
+    {
+      "name": "新能源车",
+      "change": 1.58,
+      "top1": "300750.SZ",
+      "top2": "002594.SZ",
+      "limit_count": 8
+    },
+    {
+      "name": "保险",
+      "change": 1.45,
+      "top1": "601318.SH",
+      "top2": "601628.SH",
+      "limit_count": 3
+    },
+    {
+      "name": "通信设备",
+      "change": 1.38,
+      "top1": "001696.SZ",
+      "top2": "300475.SZ",
+      "limit_count": 6
+    }
   ],
   "top_stocks": [
-    {"code": "300323.SZ", "name": "汇顶科技", "close": 11.94, "amount": 4110000, "limit_time": "09:35", "continuous_limit": 2},
-    {"code": "688031.SH", "name": "星环科技", "close": 85.50, "amount": 3200000, "limit_time": "09:40", "continuous_limit": 2},
-    {"code": "300480.SZ", "name": "光力科技", "close": 28.60, "amount": 2800000, "limit_time": "10:15", "continuous_limit": 2},
-    {"code": "301373.SZ", "name": "凌玮科技", "close": 32.80, "amount": 2500000, "limit_time": "10:30", "continuous_limit": 2},
-    {"code": "601857.SH", "name": "中国石油", "close": 8.95, "amount": 8500000, "limit_time": "09:30", "continuous_limit": 1},
-    {"code": "600547.SH", "name": "山东黄金", "close": 28.50, "amount": 6200000, "limit_time": "09:32", "continuous_limit": 1},
-    {"code": "002230.SZ", "name": "科大讯飞", "close": 52.80, "amount": 12500000, "limit_time": "09:45", "continuous_limit": 1},
-    {"code": "600028.SH", "name": "中国石化", "close": 6.25, "amount": 7800000, "limit_time": "09:33", "continuous_limit": 1}
+    {
+      "code": "300323.SZ",
+      "name": "汇顶科技",
+      "close": 11.94,
+      "amount": 4110000,
+      "pct_chg": 16.49,
+      "limit_time": "09:28",
+      "continuous_limit": 2
+    },
+    {
+      "code": "688031.SH",
+      "name": "星环科技",
+      "close": 85.5,
+      "amount": 3200000,
+      "pct_chg": 13.28,
+      "limit_time": "09:41",
+      "continuous_limit": 2
+    },
+    {
+      "code": "300480.SZ",
+      "name": "光力科技",
+      "close": 28.6,
+      "amount": 2800000,
+      "pct_chg": 11.54,
+      "limit_time": "09:31",
+      "continuous_limit": 2
+    },
+    {
+      "code": "301373.SZ",
+      "name": "凌玮科技",
+      "close": 32.8,
+      "amount": 2500000,
+      "pct_chg": 14.38,
+      "limit_time": "09:37",
+      "continuous_limit": 2
+    },
+    {
+      "code": "002913.SZ",
+      "name": "奥士康",
+      "close": 45.2,
+      "amount": 2300000,
+      "pct_chg": 10.0,
+      "limit_time": "09:39",
+      "continuous_limit": 2
+    },
+    {
+      "code": "601857.SH",
+      "name": "中国石油",
+      "close": 8.95,
+      "amount": 8500000,
+      "pct_chg": 9.94,
+      "limit_time": "09:31",
+      "continuous_limit": 1
+    },
+    {
+      "code": "600547.SH",
+      "name": "山东黄金",
+      "close": 28.5,
+      "amount": 6200000,
+      "pct_chg": 9.96,
+      "limit_time": "09:30",
+      "continuous_limit": 1
+    },
+    {
+      "code": "002230.SZ",
+      "name": "科大讯飞",
+      "close": 52.8,
+      "amount": 12500000,
+      "pct_chg": 10.02,
+      "limit_time": "09:45",
+      "continuous_limit": 1
+    },
+    {
+      "code": "600028.SH",
+      "name": "中国石化",
+      "close": 6.25,
+      "amount": 7800000,
+      "pct_chg": 9.84,
+      "limit_time": "09:36",
+      "continuous_limit": 1
+    },
+    {
+      "code": "300475.SZ",
+      "name": "香农芯创",
+      "close": 155.04,
+      "amount": 8250000,
+      "pct_chg": 12.06,
+      "limit_time": "09:29",
+      "continuous_limit": 1
+    },
+    {
+      "code": "002261.SZ",
+      "name": "拓维信息",
+      "close": 39.05,
+      "amount": 7490000,
+      "pct_chg": 10.0,
+      "limit_time": "09:42",
+      "continuous_limit": 1
+    },
+    {
+      "code": "002506.SZ",
+      "name": "协鑫集成",
+      "close": 5.56,
+      "amount": 5820000,
+      "pct_chg": 10.1,
+      "limit_time": "09:26",
+      "continuous_limit": 1
+    },
+    {
+      "code": "601868.SH",
+      "name": "中国能建",
+      "close": 2.89,
+      "amount": 5730000,
+      "pct_chg": 9.89,
+      "limit_time": "09:44",
+      "continuous_limit": 1
+    },
+    {
+      "code": "301205.SZ",
+      "name": "铜牛信息",
+      "close": 237.72,
+      "amount": 3820000,
+      "pct_chg": 20.0,
+      "limit_time": "09:38",
+      "continuous_limit": 1
+    },
+    {
+      "code": "001696.SZ",
+      "name": "宗申动力",
+      "close": 25.54,
+      "amount": 3880000,
+      "pct_chg": 9.99,
+      "limit_time": "09:36",
+      "continuous_limit": 1
+    },
+    {
+      "code": "001896.SZ",
+      "name": "豫能控股",
+      "close": 15.88,
+      "amount": 3640000,
+      "pct_chg": 9.97,
+      "limit_time": "09:33",
+      "continuous_limit": 1
+    },
+    {
+      "code": "600875.SH",
+      "name": "东方电气",
+      "close": 22.35,
+      "amount": 3420000,
+      "pct_chg": 10.05,
+      "limit_time": "09:43",
+      "continuous_limit": 1
+    },
+    {
+      "code": "300750.SZ",
+      "name": "宁德时代",
+      "close": 485.6,
+      "amount": 15800000,
+      "pct_chg": 10.01,
+      "limit_time": "09:30",
+      "continuous_limit": 1
+    },
+    {
+      "code": "002594.SZ",
+      "name": "比亚迪",
+      "close": 325.8,
+      "amount": 12300000,
+      "pct_chg": 9.98,
+      "limit_time": "09:28",
+      "continuous_limit": 1
+    },
+    {
+      "code": "601318.SH",
+      "name": "中国平安",
+      "close": 68.5,
+      "amount": 9500000,
+      "pct_chg": 9.95,
+      "limit_time": "09:35",
+      "continuous_limit": 1
+    }
   ],
   "index_data": {
     "000001.SHA": {
       "name": "上证指数",
       "data": [
-        {"trade_date": "20260228", "close": 4100.50},
-        {"trade_date": "20260301", "close": 4110.20},
-        {"trade_date": "20260302", "close": 4095.80},
-        {"trade_date": "20260303", "close": 4105.60},
-        {"trade_date": "20260304", "close": 4118.30},
-        {"trade_date": "20260305", "close": 4108.50},
-        {"trade_date": "20260306", "close": 4124.19}
+        {
+          "trade_date": "20260221",
+          "close": 4057.81,
+          "open": 4064.87,
+          "high": 4070.17,
+          "low": 4039.98,
+          "vol": 2264
+        },
+        {
+          "trade_date": "20260222",
+          "close": 4046.46,
+          "open": 4039.86,
+          "high": 4057.23,
+          "low": 4031.19,
+          "vol": 3306
+        },
+        {
+          "trade_date": "20260223",
+          "close": 4082.0,
+          "open": 4084.79,
+          "high": 4094.77,
+          "low": 4070.96,
+          "vol": 3166
+        },
+        {
+          "trade_date": "20260224",
+          "close": 4155.84,
+          "open": 4154.27,
+          "high": 4187.78,
+          "low": 4141.73,
+          "vol": 2084
+        },
+        {
+          "trade_date": "20260225",
+          "close": 4182.12,
+          "open": 4182.7,
+          "high": 4195.63,
+          "low": 4171.4,
+          "vol": 3391
+        },
+        {
+          "trade_date": "20260226",
+          "close": 4275.29,
+          "open": 4282.71,
+          "high": 4290.18,
+          "low": 4243.17,
+          "vol": 2487
+        },
+        {
+          "trade_date": "20260227",
+          "close": 4250.34,
+          "open": 4248.57,
+          "high": 4278.05,
+          "low": 4229.43,
+          "vol": 2706
+        },
+        {
+          "trade_date": "20260228",
+          "close": 4317.46,
+          "open": 4324.18,
+          "high": 4328.02,
+          "low": 4301.75,
+          "vol": 2563
+        },
+        {
+          "trade_date": "20260301",
+          "close": 4272.01,
+          "open": 4274.8,
+          "high": 4291.37,
+          "low": 4254.78,
+          "vol": 2032
+        },
+        {
+          "trade_date": "20260302",
+          "close": 4303.64,
+          "open": 4306.72,
+          "high": 4324.15,
+          "low": 4286.71,
+          "vol": 3056
+        },
+        {
+          "trade_date": "20260303",
+          "close": 4354.93,
+          "open": 4346.84,
+          "high": 4365.57,
+          "low": 4322.45,
+          "vol": 3347
+        },
+        {
+          "trade_date": "20260304",
+          "close": 4457.88,
+          "open": 4465.8,
+          "high": 4488.03,
+          "low": 4435.12,
+          "vol": 2290
+        },
+        {
+          "trade_date": "20260305",
+          "close": 4457.4,
+          "open": 4454.32,
+          "high": 4474.78,
+          "low": 4445.95,
+          "vol": 3393
+        },
+        {
+          "trade_date": "20260306",
+          "close": 4561.4,
+          "open": 4563.43,
+          "high": 4575.46,
+          "low": 4529.67,
+          "vol": 3292
+        },
+        {
+          "trade_date": "20260307",
+          "close": 4681.03,
+          "open": 4674.19,
+          "high": 4696.42,
+          "low": 4648.41,
+          "vol": 3352
+        }
+      ]
+    },
+    "399001.SZ": {
+      "name": "深证成指",
+      "data": [
+        {
+          "trade_date": "20260221",
+          "close": 13949.26,
+          "open": 13954.3,
+          "high": 13993.55,
+          "low": 13863.27,
+          "vol": 2521
+        },
+        {
+          "trade_date": "20260222",
+          "close": 13934.08,
+          "open": 13959.99,
+          "high": 14040.93,
+          "low": 13902.39,
+          "vol": 2882
+        },
+        {
+          "trade_date": "20260223",
+          "close": 13806.62,
+          "open": 13833.52,
+          "high": 13850.96,
+          "low": 13747.38,
+          "vol": 2583
+        },
+        {
+          "trade_date": "20260224",
+          "close": 13869.15,
+          "open": 13874.51,
+          "high": 13919.19,
+          "low": 13795.27,
+          "vol": 3001
+        },
+        {
+          "trade_date": "20260225",
+          "close": 14127.83,
+          "open": 14128.84,
+          "high": 14179.21,
+          "low": 14045.69,
+          "vol": 2321
+        },
+        {
+          "trade_date": "20260226",
+          "close": 14044.21,
+          "open": 14023.26,
+          "high": 14142.88,
+          "low": 14007.38,
+          "vol": 2675
+        },
+        {
+          "trade_date": "20260227",
+          "close": 14157.02,
+          "open": 14151.99,
+          "high": 14226.2,
+          "low": 14128.31,
+          "vol": 3037
+        },
+        {
+          "trade_date": "20260228",
+          "close": 14224.95,
+          "open": 14240.93,
+          "high": 14277.39,
+          "low": 14189.38,
+          "vol": 2836
+        },
+        {
+          "trade_date": "20260301",
+          "close": 14503.79,
+          "open": 14475.21,
+          "high": 14564.65,
+          "low": 14429.55,
+          "vol": 2844
+        },
+        {
+          "trade_date": "20260302",
+          "close": 14500.64,
+          "open": 14522.02,
+          "high": 14532.93,
+          "low": 14417.16,
+          "vol": 2599
+        },
+        {
+          "trade_date": "20260303",
+          "close": 14869.82,
+          "open": 14867.83,
+          "high": 14968.05,
+          "low": 14820.7,
+          "vol": 3443
+        },
+        {
+          "trade_date": "20260304",
+          "close": 14739.47,
+          "open": 14715.05,
+          "high": 14822.17,
+          "low": 14696.25,
+          "vol": 2166
+        },
+        {
+          "trade_date": "20260305",
+          "close": 14636.56,
+          "open": 14641.65,
+          "high": 14752.37,
+          "low": 14545.61,
+          "vol": 3473
+        },
+        {
+          "trade_date": "20260306",
+          "close": 14907.56,
+          "open": 14920.2,
+          "high": 14988.8,
+          "low": 14862.11,
+          "vol": 2703
+        },
+        {
+          "trade_date": "20260307",
+          "close": 15178.52,
+          "open": 15189.35,
+          "high": 15258.95,
+          "low": 15074.05,
+          "vol": 3077
+        }
+      ]
+    },
+    "399006.SZ": {
+      "name": "创业板指",
+      "data": [
+        {
+          "trade_date": "20260221",
+          "close": 3193.49,
+          "open": 3193.88,
+          "high": 3204.08,
+          "low": 3182.94,
+          "vol": 2346
+        },
+        {
+          "trade_date": "20260222",
+          "close": 3213.49,
+          "open": 3211.5,
+          "high": 3237.94,
+          "low": 3203.35,
+          "vol": 2100
+        },
+        {
+          "trade_date": "20260223",
+          "close": 3208.02,
+          "open": 3204.77,
+          "high": 3225.35,
+          "low": 3191.2,
+          "vol": 2580
+        },
+        {
+          "trade_date": "20260224",
+          "close": 3198.84,
+          "open": 3194.77,
+          "high": 3208.82,
+          "low": 3187.93,
+          "vol": 3176
+        },
+        {
+          "trade_date": "20260225",
+          "close": 3273.09,
+          "open": 3273.7,
+          "high": 3289.5,
+          "low": 3262.14,
+          "vol": 3007
+        },
+        {
+          "trade_date": "20260226",
+          "close": 3353.43,
+          "open": 3352.46,
+          "high": 3366.09,
+          "low": 3336.49,
+          "vol": 2048
+        },
+        {
+          "trade_date": "20260227",
+          "close": 3443.83,
+          "open": 3445.9,
+          "high": 3456.79,
+          "low": 3436.03,
+          "vol": 2680
+        },
+        {
+          "trade_date": "20260228",
+          "close": 3456.77,
+          "open": 3455.89,
+          "high": 3476.26,
+          "low": 3439.12,
+          "vol": 2840
+        },
+        {
+          "trade_date": "20260301",
+          "close": 3406.41,
+          "open": 3408.25,
+          "high": 3427.22,
+          "low": 3387.76,
+          "vol": 3497
+        },
+        {
+          "trade_date": "20260302",
+          "close": 3394.61,
+          "open": 3394.91,
+          "high": 3404.58,
+          "low": 3384.12,
+          "vol": 3323
+        },
+        {
+          "trade_date": "20260303",
+          "close": 3486.25,
+          "open": 3492.77,
+          "high": 3511.41,
+          "low": 3461.68,
+          "vol": 2240
+        },
+        {
+          "trade_date": "20260304",
+          "close": 3437.08,
+          "open": 3443.93,
+          "high": 3461.7,
+          "low": 3421.41,
+          "vol": 2752
+        },
+        {
+          "trade_date": "20260305",
+          "close": 3393.27,
+          "open": 3393.15,
+          "high": 3403.14,
+          "low": 3377.83,
+          "vol": 2530
+        },
+        {
+          "trade_date": "20260306",
+          "close": 3431.51,
+          "open": 3434.18,
+          "high": 3449.27,
+          "low": 3418.82,
+          "vol": 2266
+        },
+        {
+          "trade_date": "20260307",
+          "close": 3420.18,
+          "open": 3421.74,
+          "high": 3445.76,
+          "low": 3393.86,
+          "vol": 3089
+        }
+      ]
+    },
+    "000300.SHA": {
+      "name": "沪深 300",
+      "data": [
+        {
+          "trade_date": "20260221",
+          "close": 5653.08,
+          "open": 5663.08,
+          "high": 5697.63,
+          "low": 5612.37,
+          "vol": 3394
+        },
+        {
+          "trade_date": "20260222",
+          "close": 5761.05,
+          "open": 5767.33,
+          "high": 5795.24,
+          "low": 5735.41,
+          "vol": 3390
+        },
+        {
+          "trade_date": "20260223",
+          "close": 5769.01,
+          "open": 5780.01,
+          "high": 5783.61,
+          "low": 5736.63,
+          "vol": 2059
+        },
+        {
+          "trade_date": "20260224",
+          "close": 5844.63,
+          "open": 5854.85,
+          "high": 5885.73,
+          "low": 5798.45,
+          "vol": 2528
+        },
+        {
+          "trade_date": "20260225",
+          "close": 5898.84,
+          "open": 5895.99,
+          "high": 5939.82,
+          "low": 5865.3,
+          "vol": 3371
+        },
+        {
+          "trade_date": "20260226",
+          "close": 5939.1,
+          "open": 5938.19,
+          "high": 5980.58,
+          "low": 5923.92,
+          "vol": 2872
+        },
+        {
+          "trade_date": "20260227",
+          "close": 5994.74,
+          "open": 5988.5,
+          "high": 6037.32,
+          "low": 5975.25,
+          "vol": 2800
+        },
+        {
+          "trade_date": "20260228",
+          "close": 6141.52,
+          "open": 6149.78,
+          "high": 6187.59,
+          "low": 6127.86,
+          "vol": 3391
+        },
+        {
+          "trade_date": "20260301",
+          "close": 6295.37,
+          "open": 6305.98,
+          "high": 6333.14,
+          "low": 6281.71,
+          "vol": 2931
+        },
+        {
+          "trade_date": "20260302",
+          "close": 6261.48,
+          "open": 6262.29,
+          "high": 6282.04,
+          "low": 6244.08,
+          "vol": 2404
+        },
+        {
+          "trade_date": "20260303",
+          "close": 6391.31,
+          "open": 6388.16,
+          "high": 6442.06,
+          "low": 6341.62,
+          "vol": 2943
+        },
+        {
+          "trade_date": "20260304",
+          "close": 6422.46,
+          "open": 6429.31,
+          "high": 6454.75,
+          "low": 6393.11,
+          "vol": 2273
+        },
+        {
+          "trade_date": "20260305",
+          "close": 6364.85,
+          "open": 6367.57,
+          "high": 6407.15,
+          "low": 6346.07,
+          "vol": 2378
+        },
+        {
+          "trade_date": "20260306",
+          "close": 6527.16,
+          "open": 6522.77,
+          "high": 6566.04,
+          "low": 6499.37,
+          "vol": 2458
+        },
+        {
+          "trade_date": "20260307",
+          "close": 6510.68,
+          "open": 6511.89,
+          "high": 6536.89,
+          "low": 6473.7,
+          "vol": 2208
+        }
+      ]
+    },
+    "000016.SHA": {
+      "name": "上证 50",
+      "data": [
+        {
+          "trade_date": "20260221",
+          "close": 3846.19,
+          "open": 3847.44,
+          "high": 3863.38,
+          "low": 3830.17,
+          "vol": 2854
+        },
+        {
+          "trade_date": "20260222",
+          "close": 3888.16,
+          "open": 3888.61,
+          "high": 3911.15,
+          "low": 3867.26,
+          "vol": 3399
+        },
+        {
+          "trade_date": "20260223",
+          "close": 3865.18,
+          "open": 3862.28,
+          "high": 3880.22,
+          "low": 3853.25,
+          "vol": 2210
+        },
+        {
+          "trade_date": "20260224",
+          "close": 3959.14,
+          "open": 3953.14,
+          "high": 3976.1,
+          "low": 3942.14,
+          "vol": 2676
+        },
+        {
+          "trade_date": "20260225",
+          "close": 3923.69,
+          "open": 3929.23,
+          "high": 3941.81,
+          "low": 3915.25,
+          "vol": 3207
+        },
+        {
+          "trade_date": "20260226",
+          "close": 3850.16,
+          "open": 3850.09,
+          "high": 3871.78,
+          "low": 3819.49,
+          "vol": 2615
+        },
+        {
+          "trade_date": "20260227",
+          "close": 3819.22,
+          "open": 3820.04,
+          "high": 3828.67,
+          "low": 3799.94,
+          "vol": 3403
+        },
+        {
+          "trade_date": "20260228",
+          "close": 3769.37,
+          "open": 3765.96,
+          "high": 3784.45,
+          "low": 3746.76,
+          "vol": 2147
+        },
+        {
+          "trade_date": "20260301",
+          "close": 3809.82,
+          "open": 3816.15,
+          "high": 3825.75,
+          "low": 3783.57,
+          "vol": 2173
+        },
+        {
+          "trade_date": "20260302",
+          "close": 3873.85,
+          "open": 3869.94,
+          "high": 3885.89,
+          "low": 3863.14,
+          "vol": 2378
+        },
+        {
+          "trade_date": "20260303",
+          "close": 3815.55,
+          "open": 3808.91,
+          "high": 3827.43,
+          "low": 3787.3,
+          "vol": 2685
+        },
+        {
+          "trade_date": "20260304",
+          "close": 3770.92,
+          "open": 3776.88,
+          "high": 3784.26,
+          "low": 3743.32,
+          "vol": 2896
+        },
+        {
+          "trade_date": "20260305",
+          "close": 3815.68,
+          "open": 3821.04,
+          "high": 3843.64,
+          "low": 3793.65,
+          "vol": 2670
+        },
+        {
+          "trade_date": "20260306",
+          "close": 3843.32,
+          "open": 3840.82,
+          "high": 3871.96,
+          "low": 3825.21,
+          "vol": 2485
+        },
+        {
+          "trade_date": "20260307",
+          "close": 3772.37,
+          "open": 3766.66,
+          "high": 3793.06,
+          "low": 3758.89,
+          "vol": 3440
+        }
+      ]
+    },
+    "000905.SHA": {
+      "name": "中证 500",
+      "data": [
+        {
+          "trade_date": "20260221",
+          "close": 8622.22,
+          "open": 8635.26,
+          "high": 8679.27,
+          "low": 8563.55,
+          "vol": 2538
+        },
+        {
+          "trade_date": "20260222",
+          "close": 8490.94,
+          "open": 8477.91,
+          "high": 8524.6,
+          "low": 8436.66,
+          "vol": 3448
+        },
+        {
+          "trade_date": "20260223",
+          "close": 8715.41,
+          "open": 8732.18,
+          "high": 8737.42,
+          "low": 8666.42,
+          "vol": 2231
+        },
+        {
+          "trade_date": "20260224",
+          "close": 8631.75,
+          "open": 8637.36,
+          "high": 8673.94,
+          "low": 8599.36,
+          "vol": 3236
+        },
+        {
+          "trade_date": "20260225",
+          "close": 8586.16,
+          "open": 8575.45,
+          "high": 8634.38,
+          "low": 8561.4,
+          "vol": 2374
+        },
+        {
+          "trade_date": "20260226",
+          "close": 8729.99,
+          "open": 8744.88,
+          "high": 8765.26,
+          "low": 8699.96,
+          "vol": 2743
+        },
+        {
+          "trade_date": "20260227",
+          "close": 8726.61,
+          "open": 8720.64,
+          "high": 8753.7,
+          "low": 8697.13,
+          "vol": 2653
+        },
+        {
+          "trade_date": "20260228",
+          "close": 8843.87,
+          "open": 8852.32,
+          "high": 8863.16,
+          "low": 8820.53,
+          "vol": 3068
+        },
+        {
+          "trade_date": "20260301",
+          "close": 8703.26,
+          "open": 8704.69,
+          "high": 8730.06,
+          "low": 8670.03,
+          "vol": 2118
+        },
+        {
+          "trade_date": "20260302",
+          "close": 8944.01,
+          "open": 8935.61,
+          "high": 8972.8,
+          "low": 8906.6,
+          "vol": 3247
+        },
+        {
+          "trade_date": "20260303",
+          "close": 8866.37,
+          "open": 8856.66,
+          "high": 8893.49,
+          "low": 8801.04,
+          "vol": 2954
+        },
+        {
+          "trade_date": "20260304",
+          "close": 9055.51,
+          "open": 9060.62,
+          "high": 9101.91,
+          "low": 8991.27,
+          "vol": 2128
+        },
+        {
+          "trade_date": "20260305",
+          "close": 9141.96,
+          "open": 9152.97,
+          "high": 9185.85,
+          "low": 9086.42,
+          "vol": 2003
+        },
+        {
+          "trade_date": "20260306",
+          "close": 9119.89,
+          "open": 9132.05,
+          "high": 9162.62,
+          "low": 9081.13,
+          "vol": 2752
+        },
+        {
+          "trade_date": "20260307",
+          "close": 9293.99,
+          "open": 9289.87,
+          "high": 9332.72,
+          "low": 9223.69,
+          "vol": 2818
+        }
+      ]
+    },
+    "000688.SHA": {
+      "name": "科创 50",
+      "data": [
+        {
+          "trade_date": "20260221",
+          "close": 1433.71,
+          "open": 1435.23,
+          "high": 1441.64,
+          "low": 1429.92,
+          "vol": 3361
+        },
+        {
+          "trade_date": "20260222",
+          "close": 1468.0,
+          "open": 1468.61,
+          "high": 1471.17,
+          "low": 1460.37,
+          "vol": 2853
+        },
+        {
+          "trade_date": "20260223",
+          "close": 1465.93,
+          "open": 1464.3,
+          "high": 1472.65,
+          "low": 1454.52,
+          "vol": 2733
+        },
+        {
+          "trade_date": "20260224",
+          "close": 1461.29,
+          "open": 1462.49,
+          "high": 1469.25,
+          "low": 1457.66,
+          "vol": 2679
+        },
+        {
+          "trade_date": "20260225",
+          "close": 1493.99,
+          "open": 1495.64,
+          "high": 1498.48,
+          "low": 1482.04,
+          "vol": 3151
+        },
+        {
+          "trade_date": "20260226",
+          "close": 1474.86,
+          "open": 1476.12,
+          "high": 1484.32,
+          "low": 1466.05,
+          "vol": 2546
+        },
+        {
+          "trade_date": "20260227",
+          "close": 1493.6,
+          "open": 1492.31,
+          "high": 1499.91,
+          "low": 1489.5,
+          "vol": 2257
+        },
+        {
+          "trade_date": "20260228",
+          "close": 1489.02,
+          "open": 1489.07,
+          "high": 1493.86,
+          "low": 1481.9,
+          "vol": 2979
+        },
+        {
+          "trade_date": "20260301",
+          "close": 1516.52,
+          "open": 1516.5,
+          "high": 1527.79,
+          "low": 1505.14,
+          "vol": 2221
+        },
+        {
+          "trade_date": "20260302",
+          "close": 1515.23,
+          "open": 1517.26,
+          "high": 1526.86,
+          "low": 1506.5,
+          "vol": 2526
+        },
+        {
+          "trade_date": "20260303",
+          "close": 1559.63,
+          "open": 1561.28,
+          "high": 1565.67,
+          "low": 1549.46,
+          "vol": 2377
+        },
+        {
+          "trade_date": "20260304",
+          "close": 1542.36,
+          "open": 1542.35,
+          "high": 1550.43,
+          "low": 1530.8,
+          "vol": 2513
+        },
+        {
+          "trade_date": "20260305",
+          "close": 1532.65,
+          "open": 1535.54,
+          "high": 1542.98,
+          "low": 1529.03,
+          "vol": 2939
+        },
+        {
+          "trade_date": "20260306",
+          "close": 1561.9,
+          "open": 1559.72,
+          "high": 1566.19,
+          "low": 1555.17,
+          "vol": 2864
+        },
+        {
+          "trade_date": "20260307",
+          "close": 1582.66,
+          "open": 1579.8,
+          "high": 1589.84,
+          "low": 1577.27,
+          "vol": 2568
+        }
       ]
     }
   }
